@@ -1,0 +1,22 @@
+{
+  "name": "rutgonlink",
+  "version": "1.0.0",
+  "description": "Rut Gon Link",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.14.1",
+    "finalhandler": "^0.5.0",
+    "mustache": "^2.2.1",
+    "nodemon": "^1.10.0",
+    "router": "^1.1.4",
+    "shortid": "^2.2.6",
+    "level": "^1.4.0"
+  }
+}

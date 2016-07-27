@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <form method="POST">
+      <div class="header">
+         <p>URL Shortener</p>
+      </div>
+      <div class="description">
+        <p>Paste your long URL here:</p>
+      </div>
+      <div class="input">
+        <input type="url" class="button" id="url" name="url"></input>
+        <input type="submit" class="button" id="submit" value="Shorten URL">
+      </div>
+    </form>
+    <p>
+	{{msg}}
+	</p>
+  </body>
+</html>
